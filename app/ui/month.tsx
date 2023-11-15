@@ -22,8 +22,10 @@ export default function Month({
 
   return (
     <>
-      <MonthHeading month={monthName + " " + year} />
-      <div>{elements}</div>
+      <div className="flex flex-col items-center justify-center my-4">
+        <MonthHeading month={monthName + " " + year} />
+        <div className="grid grid-cols-7 w-fit">{elements}</div>
+      </div>
     </>
   );
 }

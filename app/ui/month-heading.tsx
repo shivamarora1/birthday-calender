@@ -1,10 +1,10 @@
 export default function MonthHeading({ month }: { month: string }) {
   return (
     <>
-      <div>
-        <div>&lt;</div>
-        <div>{month}</div>
-        <div>&gt;</div>
+      <div className = "flex mb-3">
+        <div className="font-medium text-lg">&lt;</div>
+        <div className="font-medium text-lg mx-3">{month}</div>
+        <div className="font-medium text-lg">&gt;</div>
       </div>
     </>
   );

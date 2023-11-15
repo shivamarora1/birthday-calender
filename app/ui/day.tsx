@@ -33,11 +33,10 @@ export default function Day({ date }: { date: Date }) {
           {events.map((event, idx) => (
             <div
               key={idx}
-              className={`mb-0.5 rounded-l 
-              bg-gray-${Math.max(400 - idx * 100, 100)} 
+              className={`mb-0.5 rounded-l bg-gray-${Math.max(400 - idx * 100, 100)} 
               ${idx > 0 ? "text-black" : "text-white"}`}
             >
-              event
+              {event}
             </div>
           ))}
         </div>

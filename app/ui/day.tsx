@@ -1,12 +1,23 @@
-export default function Day({ date }: { date: Date }) {
-  const events = [
-    "Events",
-    "Event-1",
-    "Events-2",
-    "Event-3",
-    "Events-4",
-    "Event-5",
-  ];
+"use client";
+import { useState } from "react";
+export default function Day({
+  date,
+  eventsParam = [],
+}: {
+  date: Date;
+  eventsParam: String[];
+}) {
+  console.log("events are: "+eventsParam);
+  const [events, setEvents] = useState(eventsParam);
+  const addNewEvent = (event: string) => {
+    const existingEvents = [...events];
+    existingEvents.push(event);
+    setEvents(existingEvents);
+  };
+
+  const showAddNewEventDialog = () => {
+    addNewEvent("event @ " + date.toDateString());
+  };
   const day = date.getDate();
   const lastDay = new Date(
     date.getFullYear(),
@@ -17,6 +28,7 @@ export default function Day({ date }: { date: Date }) {
   return (
     <>
       <div
+        onClick={showAddNewEventDialog}
         className={`block border-l border-b border-gray-600 w-48 h-44 text-center 
         ${day <= 7 ? "border-t" : ""} 
         ${day % 7 == 0 ? "border-r" : ""} 
@@ -30,15 +42,35 @@ export default function Day({ date }: { date: Date }) {
         <div className="text-xs">{dayName}</div>
         <div className="text-sm font-medium">{day}</div>
         <div className="text-sm mt-1 mb-1 ml-2">
-          {events.map((event, idx) => (
-            <div
-              key={idx}
-              className={`mb-0.5 rounded-l bg-gray-${Math.max(400 - idx * 100, 100)} 
-              ${idx > 0 ? "text-black" : "text-white"}`}
-            >
-              {event}
-            </div>
-          ))}
+          {events.map((event, idx) => {
+            // tailwind does not support string interpolation
+            let bgColorClass = "bg-gray-400";
+            switch (idx) {
+              case 0:
+                bgColorClass = "bg-gray-400";
+                break;
+              case 1:
+                bgColorClass = "bg-gray-300";
+                break;
+              case 2:
+                bgColorClass = "bg-gray-200";
+                break;
+              default:
+                bgColorClass = "bg-gray-100";
+                break;
+            }
+            // end of ugly switch case conditions.
+
+            const textColorClass = idx > 0 ? "text-black" : "text-white";
+            return (
+              <div
+                key={idx}
+                className={`mb-0.5 rounded-l ${bgColorClass} ${textColorClass}`}
+              >
+                {event}
+              </div>
+            );
+          })}
         </div>
       </div>
     </>

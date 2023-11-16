@@ -3,6 +3,7 @@ import { useState } from "react";
 import { getDaysInMonth, getMonthName } from "../lib/utils";
 import Day from "./day";
 import MonthHeading from "./month-heading";
+import { getDayEvents } from "../lib/utils";
 
 export default function Month({
   month,
@@ -11,7 +12,6 @@ export default function Month({
   month: number;
   year: number;
 }) {
-  
   const [monthState, setMonth] = useState(month);
   const [yearState, setYear] = useState(year);
 
@@ -19,7 +19,6 @@ export default function Month({
   const daysInMonth = getDaysInMonth(yearState, monthState);
 
   const nextMonth = () => {
-    alert("here... next");
     let newDate = new Date(yearState, monthState + 1, 1);
 
     setMonth(newDate.getMonth());
@@ -27,7 +26,6 @@ export default function Month({
   };
 
   const previousMonth = () => {
-    alert("here... previous");
     let newDate = new Date(yearState, monthState - 1, 1);
 
     setMonth(newDate.getMonth());
@@ -38,7 +36,14 @@ export default function Month({
   let day = 1;
 
   while (day <= daysInMonth) {
-    elements.push(<Day key={day} date={new Date(year, month, day)} />);
+    const dt = new Date(yearState, monthState, day); 
+    elements.push(
+      <Day
+        key={dt.getTime()}
+        date={dt}
+        eventsParam={getDayEvents(monthState, day)}
+      />
+    );
     day++;
   }
 

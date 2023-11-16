@@ -33,3 +33,35 @@ export function getDaysInMonth(year: number, month: number): number {
   const dt = new Date(year, month + 1, 0);
   return dt.getDate();
 }
+
+const data: { [month: number]: { [day: number]: String[] } } = {
+  10: {
+    21: ["Raceme birthDay"],
+    16: ["Rakshit birthday"],
+    17: ["Sonam anniversary"],
+  },
+  11: {
+    25: ["Khushboo birthday"],
+  },
+  9: {
+    21: ["Shubneet birthday"],
+  },
+  8: {
+    27: ["Ankita Shahi birthday"],
+  },
+  0: {
+    8: ["Mamta birthday"],
+  },
+  1: {
+    16: ["Aditi birthday"],
+  },
+};
+
+export function getDayEvents(month: number, day: number): String[] {
+  if (!data[month]) {
+    return [];
+  } else if (!data[month][day]) {
+    return [];
+  }
+  return data[month][day];
+}

@@ -1,13 +1,16 @@
 "use client";
 import { useState } from "react";
+import { showModalFxn } from "@/app/ui/month";
 export default function Day({
   date,
   eventsParam = [],
+  showModal,
 }: {
   date: Date;
   eventsParam: String[];
+  showModal: showModalFxn;
 }) {
-  console.log("events are: "+eventsParam);
+
   const [events, setEvents] = useState(eventsParam);
   const addNewEvent = (event: string) => {
     const existingEvents = [...events];
@@ -18,6 +21,7 @@ export default function Day({
   const showAddNewEventDialog = () => {
     addNewEvent("event @ " + date.toDateString());
   };
+
   const day = date.getDate();
   const lastDay = new Date(
     date.getFullYear(),
@@ -28,7 +32,7 @@ export default function Day({
   return (
     <>
       <div
-        onClick={showAddNewEventDialog}
+        onClick={showModal}
         className={`block border-l border-b border-gray-600 w-48 h-44 text-center 
         ${day <= 7 ? "border-t" : ""} 
         ${day % 7 == 0 ? "border-r" : ""} 

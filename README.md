@@ -35,15 +35,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-1. Add interactivity on next and previous button click of month.
-2. Open the pop up when clicked on the day box.
-3. Create the event in that pop up.
-
-Birthday manager:
-
-1. Add new birthday.
-2. List all birthdays (Some sort of calender with birthday marked).
-3. 
+1. Open the pop up when clicked on the day box.
+2. Create the event in that pop up.
 
 Name, Date.
 

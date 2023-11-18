@@ -1,12 +1,25 @@
+'use client'
+import {useState} from 'react'
 import { getMonthName } from "../lib/utils";
+type DateObject = { day: number; month: number };
 
 export default function NewBirthday({
+  dateObject,
   handleHideModel,
+  handleSaveEvent,
 }: {
+  dateObject: DateObject;
   handleHideModel: () => void;
+  handleSaveEvent:(title:string)=>void;
 }) {
-  const day = 12;
-  const month = 3;
+
+  const [title,setTitle] = useState('');
+  const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>)=>{
+    setTitle(e.target.value);
+  };
+
+  const day = dateObject.day;
+  const month = dateObject.month;
   const monthName = getMonthName(month);
   return (
     <div className="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center">
@@ -18,6 +31,8 @@ export default function NewBirthday({
           <input
             type="text"
             id="title"
+            value={title}
+            onChange={handleTitleChange}
             className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             placeholder="Name of event."
             required
@@ -37,7 +52,7 @@ export default function NewBirthday({
           />
         </div>
         <div className="mt-5 flex text-center justify-center items-center">
-          <button className="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+          <button onClick={()=>{handleSaveEvent(title)}} className="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
             Save
           </button>
           <button

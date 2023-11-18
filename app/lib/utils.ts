@@ -34,7 +34,9 @@ export function getDaysInMonth(year: number, month: number): number {
   return dt.getDate();
 }
 
-const data: { [month: number]: { [day: number]: String[] } } = {
+type eventsDataType = { [month: number]: { [day: number]: String[] } };
+
+export const eventsData: eventsDataType = {
   10: {
     21: ["Raceme birthDay"],
     16: ["Rakshit birthday"],
@@ -57,7 +59,11 @@ const data: { [month: number]: { [day: number]: String[] } } = {
   },
 };
 
-export function getDayEvents(month: number, day: number): String[] {
+export function getDayEvents(
+  data: eventsDataType,
+  month: number,
+  day: number
+): String[] {
   if (!data[month]) {
     return [];
   } else if (!data[month][day]) {

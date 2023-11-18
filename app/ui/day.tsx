@@ -10,16 +10,11 @@ export default function Day({
   eventsParam: String[];
   showModal: showModalFxn;
 }) {
-
   const [events, setEvents] = useState(eventsParam);
   const addNewEvent = (event: string) => {
     const existingEvents = [...events];
     existingEvents.push(event);
     setEvents(existingEvents);
-  };
-
-  const showAddNewEventDialog = () => {
-    addNewEvent("event @ " + date.toDateString());
   };
 
   const day = date.getDate();
@@ -32,7 +27,7 @@ export default function Day({
   return (
     <>
       <div
-        onClick={showModal}
+        onClick={() => showModal(day, date.getMonth())}
         className={`block border-l border-b border-gray-600 w-48 h-44 text-center 
         ${day <= 7 ? "border-t" : ""} 
         ${day % 7 == 0 ? "border-r" : ""} 

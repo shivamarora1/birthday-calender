@@ -5,7 +5,7 @@ import Day from "./day";
 import MonthHeading from "./month-heading";
 import { getDayEvents } from "../lib/utils";
 
-export type showModalFxn = () => void;
+export type showModalFxn = (day: number, month: number) => void;
 export default function Month({
   month,
   year,

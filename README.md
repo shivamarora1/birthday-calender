@@ -40,6 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Name, Date.
 
+Pass the date from clicked instance.
+
 Part 1:
 Display the calender.
 Click on calender date and make new birthday entry.

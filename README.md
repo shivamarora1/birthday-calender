@@ -1,52 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Birthday reminder.
+This is basic calendar app in which you can add birthday events. Later on this app would also send you notification. Currently this application is purely frontend based means what ever you enter would not be saved in database.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
+### How to run:
+```
+npm run install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-1. Open the pop up when clicked on the day box.
-2. Create the event in that pop up.
-
-Name, Date.
-
-Pass the date from clicked instance.
-
-Part 1:
-Display the calender.
-Click on calender date and make new birthday entry.
-Next month next entries.
-
-Part 2:
-Save the entries in DB.
-With month change fetch entries of that month.
+### Deployment Url:

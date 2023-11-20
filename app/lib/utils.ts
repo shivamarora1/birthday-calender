@@ -38,7 +38,7 @@ export type eventsDataType = { [month: number]: dayEventsType };
 export type dayEventsType = { [day: number]: String[] };
 
 export const eventsData: eventsDataType = {
-  3:{7:["Shivam's Birthday"]}
+  2: { 7: ["Shivam's Birthday"] },
 };
 
 export function getDayEventsByMonth(
@@ -73,7 +73,7 @@ export function addDayEvent(
       newAllEvents[month][day] = [event];
     }
   } else {
-    newAllEvents[month][day] = [event];
+    newAllEvents[month] = { [day]: [event] };
   }
   return newAllEvents;
 }

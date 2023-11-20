@@ -8,3 +8,4 @@ npm run dev
 ```
 
 ### Deployment Url:
+https://birthday-calender-shivamarora1.vercel.app/

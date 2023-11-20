@@ -3,23 +3,30 @@ import { useState } from "react";
 import { getDaysInMonth, getMonthName } from "../lib/utils";
 import Day from "./day";
 import MonthHeading from "./month-heading";
-import { getDayEvents } from "../lib/utils";
+import {
+  eventsDataType,
+  getDayEventsByMonth,
+  getDayEventsByDate,
+} from "../lib/utils";
 
 export type showModalFxn = (day: number, month: number) => void;
 export default function Month({
   month,
   year,
   showModal,
+  allEvents,
 }: {
   month: number;
   year: number;
   showModal: showModalFxn;
+  allEvents: eventsDataType;
 }) {
   const [monthState, setMonth] = useState(month);
   const [yearState, setYear] = useState(year);
 
   const monthName = getMonthName(monthState);
   const daysInMonth = getDaysInMonth(yearState, monthState);
+  const events = getDayEventsByMonth(allEvents, monthState);
 
   const nextMonth = () => {
     let newDate = new Date(yearState, monthState + 1, 1);
@@ -45,7 +52,7 @@ export default function Month({
         key={dt.getTime()}
         date={dt}
         showModal={showModal}
-        eventsParam={getDayEvents(monthState, day)}
+        eventsParam={getDayEventsByDate(events, day)}
       />
     );
     day++;

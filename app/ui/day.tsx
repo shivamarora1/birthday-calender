@@ -10,12 +10,6 @@ export default function Day({
   eventsParam: String[];
   showModal: showModalFxn;
 }) {
-  const [events, setEvents] = useState(eventsParam);
-  const addNewEvent = (event: string) => {
-    const existingEvents = [...events];
-    existingEvents.push(event);
-    setEvents(existingEvents);
-  };
 
   const day = date.getDate();
   const lastDay = new Date(
@@ -41,7 +35,7 @@ export default function Day({
         <div className="text-xs">{dayName}</div>
         <div className="text-sm font-medium">{day}</div>
         <div className="text-sm mt-1 mb-1 ml-2">
-          {events.map((event, idx) => {
+          {eventsParam.map((event, idx) => {
             // tailwind does not support string interpolation
             let bgColorClass = "bg-gray-400";
             switch (idx) {

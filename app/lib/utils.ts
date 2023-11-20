@@ -34,40 +34,46 @@ export function getDaysInMonth(year: number, month: number): number {
   return dt.getDate();
 }
 
-type eventsDataType = { [month: number]: { [day: number]: String[] } };
+export type eventsDataType = { [month: number]: dayEventsType };
+export type dayEventsType = { [day: number]: String[] };
 
 export const eventsData: eventsDataType = {
-  10: {
-    21: ["Raceme birthDay"],
-    16: ["Rakshit birthday"],
-    17: ["Sonam anniversary"],
-  },
-  11: {
-    25: ["Khushboo birthday"],
-  },
-  9: {
-    21: ["Shubneet birthday"],
-  },
-  8: {
-    27: ["Ankita Shahi birthday"],
-  },
-  0: {
-    8: ["Mamta birthday"],
-  },
-  1: {
-    16: ["Aditi birthday"],
-  },
+  3:{7:["Shivam's Birthday"]}
 };
 
-export function getDayEvents(
+export function getDayEventsByMonth(
   data: eventsDataType,
-  month: number,
-  day: number
-): String[] {
-  if (!data[month]) {
-    return [];
-  } else if (!data[month][day]) {
-    return [];
+  month: number
+): dayEventsType {
+  if (month in data) {
+    return data[month];
   }
-  return data[month][day];
+  return {};
+}
+
+export function getDayEventsByDate(data: dayEventsType, day: number): String[] {
+  if (day in data) {
+    return data[day];
+  }
+  return [];
+}
+
+export function addDayEvent(
+  allEvents: eventsDataType,
+  month: number,
+  day: number,
+  event: string
+): eventsDataType {
+  let newAllEvents = allEvents;
+  if (month in newAllEvents) {
+    if (day in newAllEvents[month]) {
+      let events = newAllEvents[month][day];
+      events.push(event);
+    } else {
+      newAllEvents[month][day] = [event];
+    }
+  } else {
+    newAllEvents[month][day] = [event];
+  }
+  return newAllEvents;
 }

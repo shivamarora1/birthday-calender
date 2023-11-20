@@ -1,5 +1,5 @@
-'use client'
-import {useState} from 'react'
+"use client";
+import { useState } from "react";
 import { getMonthName } from "../lib/utils";
 type DateObject = { day: number; month: number };
 
@@ -10,11 +10,10 @@ export default function NewBirthday({
 }: {
   dateObject: DateObject;
   handleHideModel: () => void;
-  handleSaveEvent:(title:string)=>void;
+  handleSaveEvent: (month: number, day: number, event: string) => void;
 }) {
-
-  const [title,setTitle] = useState('');
-  const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>)=>{
+  const [title, setTitle] = useState("");
+  const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(e.target.value);
   };
 
@@ -52,7 +51,12 @@ export default function NewBirthday({
           />
         </div>
         <div className="mt-5 flex text-center justify-center items-center">
-          <button onClick={()=>{handleSaveEvent(title)}} className="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+          <button
+            onClick={() => {
+              handleSaveEvent(month, day, title);
+            }}
+            className="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+          >
             Save
           </button>
           <button

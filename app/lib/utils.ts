@@ -1,3 +1,4 @@
+import { dayEventsType, eventsDataType } from "@/app/lib/definitions";
 export function getMonthName(month: number): String {
   // 0 indexed month.
   const allMonths = [
@@ -33,9 +34,6 @@ export function getDaysInMonth(year: number, month: number): number {
   const dt = new Date(year, month + 1, 0);
   return dt.getDate();
 }
-
-export type eventsDataType = { [month: number]: dayEventsType };
-export type dayEventsType = { [day: number]: String[] };
 
 export const eventsData: eventsDataType = {
   2: { 7: ["Shivam's Birthday"] },

@@ -35,6 +35,7 @@ export function getDaysInMonth(year: number, month: number): number {
   return dt.getDate();
 }
 
+// ! delete me after use.
 export const eventsData: eventsDataType = {
   2: { 7: ["Shivam's Birthday"] },
 };

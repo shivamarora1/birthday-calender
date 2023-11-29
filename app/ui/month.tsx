@@ -4,10 +4,13 @@ import { getDaysInMonth, getMonthName } from "../lib/utils";
 import Day from "./day";
 import MonthHeading from "./month-heading";
 import {
-  eventsDataType,
   getDayEventsByMonth,
   getDayEventsByDate,
 } from "../lib/utils";
+
+import {
+  eventsDataType,
+} from "../lib/definitions";
 
 export type showModalFxn = (day: number, month: number) => void;
 export default function Month({

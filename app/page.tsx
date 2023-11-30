@@ -16,11 +16,11 @@ export default function Home() {
   });
 
   useEffect(() => {
-    fetch("/api")
+    fetch("/api/events")
       .then((response) => response.json())
       .then((data) => setAllEvents(data))
       .catch((error) => console.log("error fetching events data: ", error));
-  },[]);
+  }, []);
 
   // make the events data at outside...
   const handleHideModel = () => {
@@ -33,10 +33,19 @@ export default function Home() {
     setModalDate({ day: day, month: month });
   };
 
-  const handleAddEvent = (month: number, day: number, event: string) => {
-    let newAllEvents = addDayEvent(allEvents, month, day, event);
-    setAllEvents(newAllEvents);
-    handleHideModel();
+  const handleAddEvent = async (month: number, day: number, event: string) => {
+    try {
+      const response = fetch("/api/event", {
+        method: "POST",
+        body: JSON.stringify({ month: month, day: day, title: event }),
+      });
+
+      let newAllEvents = addDayEvent(allEvents, month, day, event);
+      setAllEvents(newAllEvents);
+      handleHideModel();
+    } catch (error) {
+      console.log("error saving event data:", error);
+    }
   };
 
   return (

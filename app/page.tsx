@@ -1,21 +1,26 @@
-'use client'
+"use client";
 import Image from "next/image";
 import { eventsData } from "@/app/lib/utils";
 import Month from "./ui/month";
 import NewBirthday from "./ui/new-birthday";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { addDayEvent } from "@/app/lib/utils";
-import { fetchAllEvents } from "@/app/lib/data";
 
 export default function Home() {
-  const eventsData = {};
   const date = new Date();
-  const [allEvents, setAllEvents] = useState(eventsData);
+  const [allEvents, setAllEvents] = useState({});
   const [showModal, setShowModal] = useState(false);
   const [modalDate, setModalDate] = useState({
     day: date.getDay(),
     month: date.getMonth(),
   });
+
+  useEffect(() => {
+    fetch("/api")
+      .then((response) => response.json())
+      .then((data) => setAllEvents(data))
+      .catch((error) => console.log("error fetching events data: ", error));
+  },[]);
 
   // make the events data at outside...
   const handleHideModel = () => {

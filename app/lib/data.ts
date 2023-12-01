@@ -1,9 +1,10 @@
-import { sql } from "@vercel/postgres";
+import { conn } from "@/app/lib/db";
 import { event, eventsDataType } from "./definitions";
 // fetching all events at once
 export async function fetchAllEvents() {
   try {
-    const data = await sql<event>`SELECT * FROM events`;
+    const query = `SELECT * FROM events`;
+    const data = await conn.query(query);
     const birthdayEvents = data.rows.reduce((acc: eventsDataType, event) => {
       const { month, day, title } = event;
       acc[month] = acc[month] || {};
@@ -21,8 +22,9 @@ export async function saveEvent(ev: event) {
   try {
     if (!ev.month || !ev.day || !ev.title)
       throw new Error("Month, Day, Title is required");
-    await sql`INSERT INTO events(month,day,title)VALUES(${ev.month},${ev.day},${ev.title});`;
-    return "success"
+    const query = `INSERT INTO events(month,day,title)VALUES($1,$2,$3);`
+    const res = await conn.query(query,[ev.month,ev.day,ev.title])
+    return "success";
   } catch (error) {
     console.error("Database Error:", error);
     throw new Error("Failed to save event data.");

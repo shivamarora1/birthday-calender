@@ -9,3 +9,7 @@ npm run dev
 
 ### Deployment Url:
 https://birthday-calender-shivamarora1.vercel.app/
+
+
+### TODO Tasks:
+1. Responsive design.

@@ -13,3 +13,5 @@ https://birthday-calender-shivamarora1.vercel.app/
 
 ### TODO Tasks:
 1. Responsive design.
+2. Deploy in production.
+3. Authentication.

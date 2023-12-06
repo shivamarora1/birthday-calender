@@ -6,7 +6,7 @@ import NewBirthday from "./ui/new-birthday";
 import Loader from "./ui/loader";
 import { useState, useEffect } from "react";
 import { addDayEvent } from "@/app/lib/utils";
-import  AuthWall  from "@/app/ui/auth";
+import AuthWall from "@/app/ui/auth";
 
 export default function Home() {
   const date = new Date();
@@ -20,17 +20,24 @@ export default function Home() {
   });
 
   useEffect(() => {
-    showLoader();
-    fetch("/api/events", {
-      headers: {
-        "Api-Key": passCode,
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => setAllEvents(data))
-      .then(() => hideLoader())
-      .catch((error) => console.log("error fetching events data: ", error));
-  }, []);
+    if (passCode) {
+      showLoader();
+      fetch("/api/events", {
+        headers: {
+          "Api-Key": passCode,
+        },
+      })
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! Status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => setAllEvents(data))
+        .then(() => hideLoader())
+        .catch((error) => console.log("error fetching events data: ", error));
+    }
+  }, [passCode]);
 
   // make the events data at outside...
   const handleHideModel = () => {
@@ -51,40 +58,52 @@ export default function Home() {
   const handleAddEvent = async (month: number, day: number, event: string) => {
     showLoader();
     handleHideModel();
-    try {
-      const response = fetch("/api/event", {
-        method: "POST",
-        headers: {
-          "Api-Key": passCode,
-        },
-        body: JSON.stringify({ month: month, day: day, title: event }),
+    const response = fetch("/api/event", {
+      method: "POST",
+      headers: {
+        "Api-Key": passCode,
+      },
+      body: JSON.stringify({ month: month, day: day, title: event }),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
       })
-        .then(() => {
-          let newAllEvents = addDayEvent(allEvents, month, day, event);
-          setAllEvents(newAllEvents);
-        })
-        .finally(() => hideLoader());
-    } catch (error) {
-      console.log("error saving event data:", error);
-    }
+      .then(() => {
+        let newAllEvents = addDayEvent(allEvents, month, day, event);
+        setAllEvents(newAllEvents);
+      })
+      .catch((error) => {
+        console.error("API error: ", error.message);
+      })
+      .finally(() => hideLoader());
   };
 
   const handleVerifyAuth = async (passcode: string) => {
     showLoader();
-    try {
-      const response = fetch("api/auth", {
-        method: "GET",
-        headers: {
-          "Api-Key": passcode,
-        },
+    const response = fetch("api/auth", {
+      method: "GET",
+      headers: {
+        "Api-Key": passcode,
+      },
+    })
+      .then((res) => {
+        if (res.status==401){
+          alert("Wrong password...")
+        }
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
       })
-        .then(() => {
-          setPasscode(passCode);
-        })
-        .finally(() => hideLoader());
-    } catch (error) {
-      console.log("some error occured...", error);
-    }
+      .then(() => {
+        setPasscode(passcode);
+      })
+      .catch((error) => {
+        console.log(`API error: ${error.message}`);
+      })
+      .finally(() => hideLoader());
   };
 
   return (

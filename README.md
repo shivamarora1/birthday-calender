@@ -12,4 +12,6 @@ https://birthday-calender-shivamarora1.vercel.app/
 
 
 ### TODO Tasks:
-1. Test cases.
+1. Test cases for next api.
+2. Test cases for front end.
+3. Polish read me file.

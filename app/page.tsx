@@ -23,6 +23,7 @@ export default function Home() {
     if (passCode) {
       showLoader();
       fetch("/api/events", {
+        cache:'no-store',
         headers: {
           "Api-Key": passCode,
         },
@@ -59,6 +60,7 @@ export default function Home() {
     showLoader();
     handleHideModel();
     const response = fetch("/api/event", {
+      cache:'no-store',
       method: "POST",
       headers: {
         "Api-Key": passCode,
@@ -84,6 +86,7 @@ export default function Home() {
   const handleVerifyAuth = async (passcode: string) => {
     showLoader();
     const response = fetch("api/auth", {
+      cache:'no-store',
       method: "GET",
       headers: {
         "Api-Key": passcode,

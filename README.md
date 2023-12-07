@@ -1,18 +1,23 @@
-## Birthday reminder.
-This is basic calendar app in which you can add birthday events. Later on this app would also send you notification. Currently this application is purely frontend based means what ever you enter would not be saved in database.
+### Birthday reminder
+Now, Never Ever miss to wish Happy Birthday to your folks. Use this simple application to mark birthdays of your friends. You will also get reminder on that day also.
+
+### Technologies used
+- Next JS
+- Tailwind
+- Postgres
+
 
 ### How to run:
+1. Set the required environment variables in `.env` file.
+2. Then 
 ```
 npm run install
 npm run dev
 ```
-
-### Deployment Url:
-https://birthday-calender-shivamarora1.vercel.app/
 
 
 ### TODO Tasks:
 1. Test cases for next api.
 2. Test cases for front end.
 3. Polish read me file.
-4. Check why outdated response is coming.
+4. Responsive design.

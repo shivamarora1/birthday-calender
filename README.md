@@ -21,3 +21,4 @@ npm run dev
 2. Test cases for front end.
 3. Polish read me file.
 4. Responsive design.
+5. Add Docker image.

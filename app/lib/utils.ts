@@ -63,14 +63,16 @@ export function addDayEvent(
   day: number,
   event: string
 ): eventsDataType {
-  let newAllEvents = allEvents || {};
+  let newAllEvents: eventsDataType = { ...allEvents };
   if (month in newAllEvents) {
-    if (day in newAllEvents[month]) {
-      let events = newAllEvents[month][day];
+    let monthData: dayEventsType = newAllEvents[month] || {};
+    if (day in monthData) {
+      let events = monthData[day];
       events.push(event);
     } else {
-      newAllEvents[month][day] = [event];
+      monthData[day] = [event];
     }
+    newAllEvents[month] = monthData;
   } else {
     newAllEvents[month] = { [day]: [event] };
   }

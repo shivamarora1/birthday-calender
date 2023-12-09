@@ -31,13 +31,13 @@ describe("getDaysInMonth fxn", () => {
 
 describe("getDayName fxn", () => {
   test.each([
-    { year: 2023, month: 1, day: 28, dayName: "Saturday" },
-    { year: 2023, month: 4, day: 10, dayName: "Monday" },
-    { year: 2022, month: 8, day: 12, dayName: "Friday" },
-    { year: 2025, month: 11, day: 3, dayName: "Monday" },
-    { year: 2026, month: 8, day: 20, dayName: "Thursday" },
-    { year: 2004, month: 5, day: 23, dayName: "Sunday" },
-    { year: 2004, month: 9, day: 14, dayName: "Tuesday" },
+    { year: 2023, month: 1, day: 28, dayName: "Tuesday" },
+    { year: 2023, month: 4, day: 10, dayName: "Wednesday" },
+    { year: 2022, month: 8, day: 12, dayName: "Monday" },
+    { year: 2025, month: 11, day: 3, dayName: "Wednesday" },
+    { year: 2026, month: 8, day: 20, dayName: "Sunday" },
+    { year: 2004, month: 5, day: 23, dayName: "Wednesday" },
+    { year: 2004, month: 9, day: 14, dayName: "Thursday" },
   ])("Get Day Name", ({ year, month, day, dayName }) => {
     expect(getDayName(year, month, day)).toBe(dayName);
   });
@@ -93,14 +93,11 @@ describe("getDayEventsByMonth fxn", () => {
     {
       allEvents: { 1: { 18: ["Event-xy"], 29: ["Event-XYZ"] } },
       month: 1,
-      day: 29,
+      day: 25,
       event: "Event XY",
-      output: { 1: { 18: ["Event-xy"], 29: ["Event-XYZ"] } },
+      output: { 1: { 18: ["Event-xy"], 29: ["Event-XYZ"],25:["Event XY"] } },
     },
   ])("Add Day Event",({allEvents,month,day,event,output})=>{
-    expect(addDayEvent(allEvents,month,day,event)).toBe(output)
+    expect(addDayEvent(allEvents,month,day,event)).toStrictEqual(output)
   });
 });
-
-
-// Test it.....

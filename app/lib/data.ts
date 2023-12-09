@@ -7,9 +7,10 @@ export async function fetchAllEvents() {
     const data = await conn.query(query);
     const birthdayEvents = data.rows.reduce((acc: eventsDataType, event) => {
       const { month, day, title } = event;
-      acc[month] = acc[month] || {};
-      acc[month][day] = acc[month][day] || [];
-      acc[month][day].push(title);
+
+      let monthObj = acc[month]|| {}; 
+      monthObj[day] = monthObj[day] || [];
+      monthObj[day].push(title);
       return acc;
     }, {});
     return birthdayEvents;

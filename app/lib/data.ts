@@ -11,6 +11,7 @@ export async function fetchAllEvents() {
       let monthObj = acc[month]|| {}; 
       monthObj[day] = monthObj[day] || [];
       monthObj[day].push(title);
+      acc[month]=monthObj;
       return acc;
     }, {});
     return birthdayEvents;

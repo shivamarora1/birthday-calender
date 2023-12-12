@@ -17,8 +17,7 @@ npm run dev
 
 
 ### TODO Tasks:
-1. Test cases for next api.
-2. Test cases for front end.
-3. Polish read me file.
-4. Responsive design.
-5. Add Docker image.
+1. Polish read me file.
+2. Responsive design.
+3. Add Docker image.
+4. Cron for the reminder.

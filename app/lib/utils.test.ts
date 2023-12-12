@@ -1,6 +1,5 @@
-import { describe, expect, test } from "@jest/globals";
 import {
-    addDayEvent,
+  addDayEvent,
   getDayEventsByDate,
   getDayEventsByMonth,
   getDayName,
@@ -95,9 +94,9 @@ describe("getDayEventsByMonth fxn", () => {
       month: 1,
       day: 25,
       event: "Event XY",
-      output: { 1: { 18: ["Event-xy"], 29: ["Event-XYZ"],25:["Event XY"] } },
+      output: { 1: { 18: ["Event-xy"], 29: ["Event-XYZ"], 25: ["Event XY"] } },
     },
-  ])("Add Day Event",({allEvents,month,day,event,output})=>{
-    expect(addDayEvent(allEvents,month,day,event)).toStrictEqual(output)
+  ])("Add Day Event", ({ allEvents, month, day, event, output }) => {
+    expect(addDayEvent(allEvents, month, day, event)).toStrictEqual(output)
   });
 });

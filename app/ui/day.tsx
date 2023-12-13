@@ -10,7 +10,6 @@ export default function Day({
   eventsParam: String[];
   showModal: showModalFxn;
 }) {
-
   const day = date.getDate();
   const lastDay = new Date(
     date.getFullYear(),
@@ -22,15 +21,19 @@ export default function Day({
     <>
       <div
         onClick={() => showModal(day, date.getMonth())}
-        className={`block border-l border-b border-gray-600 w-48 h-44 text-center 
-        ${day <= 7 ? "border-t" : ""} 
-        ${day % 7 == 0 ? "border-r" : ""} 
-        ${day == lastDay ? "border-r" : ""}
-        ${day == 1 ? "rounded-tl-lg" : ""}
-        ${day == 7 ? "rounded-tr-lg" : ""}
-        ${day == 28 ? "rounded-br-lg" : ""}
-        ${(lastDay == 28 && day == 22) || day == 29 ? "rounded-bl-lg" : ""}
-        ${day == lastDay ? "rounded-br-lg" : ""}`}
+        className={`block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        ${day <= 2 ? "border-t" : ""}
+        ${day <= 7 ? "lg:border-t" : ""} 
+        ${day == lastDay ? "lg:border-r border-r border-b" : ""}
+        ${day == 1 ? "lg:rounded-tl-lg" : ""}
+        ${day == 7 ? "lg:rounded-tr-lg" : ""}
+        ${day == 28 ? "lg:rounded-br-lg" : ""}
+        ${day % 2 == 0 && day % 7 != 0 && day != lastDay ? "border-r lg:border-r-0" : ""}
+        ${day % 14 == 0 ? "border-r": ""}
+        ${day % 7 == 0 ? "lg:border-r" : ""} 
+        ${day == lastDay - 1 ? "border-b" : ""}
+        ${(lastDay == 28 && day == 22) || day == 29 ? "lg:rounded-bl-lg" : ""}
+        ${day == lastDay ? "lg:rounded-br-lg border-b border-r" : ""}`}
       >
         <div className="text-xs">{dayName}</div>
         <div className="text-sm font-medium">{day}</div>

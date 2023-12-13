@@ -133,12 +133,16 @@ exports[`day renders all events correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+        class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -202,12 +206,16 @@ exports[`day renders all events correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+      class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -328,12 +336,16 @@ exports[`day renders correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+        class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -367,12 +379,16 @@ exports[`day renders correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+      class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -463,12 +479,16 @@ exports[`day renders without event correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+        class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -491,12 +511,16 @@ exports[`day renders without event correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+      class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -760,15 +784,19 @@ exports[`month rendering with events data 1`] = `
           </div>
         </div>
         <div
-          class="grid grid-cols-7 w-fit"
+          class="grid grid-cols-2 lg:grid-cols-7 w-fit"
         >
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -788,12 +816,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -813,12 +845,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -849,12 +885,16 @@ exports[`month rendering with events data 1`] = `
             </div>
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -874,12 +914,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -905,12 +949,16 @@ exports[`month rendering with events data 1`] = `
             </div>
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -930,12 +978,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
-        border-r 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
         
         
-        rounded-tr-lg
+        lg:rounded-tr-lg
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -955,12 +1007,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -980,12 +1036,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1005,12 +1065,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1030,12 +1094,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1055,12 +1123,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1080,12 +1152,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1105,12 +1181,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        border-r
+        lg:border-r 
         
         
         "
@@ -1130,12 +1210,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1155,12 +1239,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1180,12 +1268,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1205,12 +1297,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1230,12 +1326,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1255,12 +1355,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1280,12 +1384,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -1305,12 +1413,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1330,12 +1442,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1355,12 +1471,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1380,12 +1500,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1405,12 +1529,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1430,12 +1558,16 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1455,13 +1587,17 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
-        rounded-br-lg
+        lg:rounded-br-lg
+        
+        border-r
+        lg:border-r 
+        
         
         "
           >
@@ -1480,14 +1616,18 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
-        
-        rounded-bl-lg
+        border-b
+        lg:rounded-bl-lg
         "
           >
             <div
@@ -1505,15 +1645,19 @@ exports[`month rendering with events data 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        lg:border-r border-r border-b
+        
+        
+        
+        
+        
          
-        border-r
         
         
-        
-        
-        rounded-br-lg"
+        lg:rounded-br-lg border-b border-r"
           >
             <div
               class="text-xs"
@@ -1557,15 +1701,19 @@ exports[`month rendering with events data 1`] = `
         </div>
       </div>
       <div
-        class="grid grid-cols-7 w-fit"
+        class="grid grid-cols-2 lg:grid-cols-7 w-fit"
       >
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -1585,12 +1733,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1610,12 +1762,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1646,12 +1802,16 @@ exports[`month rendering with events data 1`] = `
           </div>
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1671,12 +1831,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1702,12 +1866,16 @@ exports[`month rendering with events data 1`] = `
           </div>
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1727,12 +1895,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
-        border-r 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
         
         
-        rounded-tr-lg
+        lg:rounded-tr-lg
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -1752,12 +1924,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1777,12 +1953,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1802,12 +1982,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1827,12 +2011,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1852,12 +2040,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1877,12 +2069,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1902,12 +2098,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        border-r
+        lg:border-r 
         
         
         "
@@ -1927,12 +2127,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -1952,12 +2156,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -1977,12 +2185,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2002,12 +2214,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2027,12 +2243,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2052,12 +2272,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2077,12 +2301,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -2102,12 +2330,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2127,12 +2359,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2152,12 +2388,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2177,12 +2417,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2202,12 +2446,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2227,12 +2475,16 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2252,13 +2504,17 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
-        rounded-br-lg
+        lg:rounded-br-lg
+        
+        border-r
+        lg:border-r 
+        
         
         "
         >
@@ -2277,14 +2533,18 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
-        
-        rounded-bl-lg
+        border-b
+        lg:rounded-bl-lg
         "
         >
           <div
@@ -2302,15 +2562,19 @@ exports[`month rendering with events data 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        lg:border-r border-r border-b
+        
+        
+        
+        
+        
          
-        border-r
         
         
-        
-        
-        rounded-br-lg"
+        lg:rounded-br-lg border-b border-r"
         >
           <div
             class="text-xs"
@@ -2411,15 +2675,19 @@ exports[`month rendering with no events 1`] = `
           </div>
         </div>
         <div
-          class="grid grid-cols-7 w-fit"
+          class="grid grid-cols-2 lg:grid-cols-7 w-fit"
         >
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -2439,12 +2707,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2464,12 +2736,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2489,12 +2765,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2514,12 +2794,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2539,12 +2823,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2564,12 +2852,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
-        border-r 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
         
         
-        rounded-tr-lg
+        lg:rounded-tr-lg
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -2589,12 +2881,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2614,12 +2910,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2639,12 +2939,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2664,12 +2968,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2689,12 +2997,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2714,12 +3026,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2739,12 +3055,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        border-r
+        lg:border-r 
         
         
         "
@@ -2764,12 +3084,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2789,12 +3113,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2814,12 +3142,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2839,12 +3171,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2864,12 +3200,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2889,12 +3229,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2914,12 +3258,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -2939,12 +3287,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -2964,12 +3316,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -2989,12 +3345,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3014,12 +3374,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3039,12 +3403,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3064,12 +3432,16 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3089,13 +3461,17 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
-        rounded-br-lg
+        lg:rounded-br-lg
+        
+        border-r
+        lg:border-r 
+        
         
         "
           >
@@ -3114,14 +3490,18 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
-        
-        rounded-bl-lg
+        border-b
+        lg:rounded-bl-lg
         "
           >
             <div
@@ -3139,15 +3519,19 @@ exports[`month rendering with no events 1`] = `
             />
           </div>
           <div
-            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+            class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        lg:border-r border-r border-b
+        
+        
+        
+        
+        
          
-        border-r
         
         
-        
-        
-        rounded-br-lg"
+        lg:rounded-br-lg border-b border-r"
           >
             <div
               class="text-xs"
@@ -3191,15 +3575,19 @@ exports[`month rendering with no events 1`] = `
         </div>
       </div>
       <div
-        class="grid grid-cols-7 w-fit"
+        class="grid grid-cols-2 lg:grid-cols-7 w-fit"
       >
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        lg:rounded-tl-lg
+        
+        
+        
+        
          
-        
-        rounded-tl-lg
-        
         
         
         "
@@ -3219,12 +3607,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        border-t
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3244,12 +3636,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3269,12 +3665,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3294,12 +3694,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3319,12 +3723,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3344,12 +3752,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
-        border-t 
-        border-r 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
+        lg:border-t 
         
         
-        rounded-tr-lg
+        lg:rounded-tr-lg
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -3369,12 +3781,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3394,12 +3810,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3419,12 +3839,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3444,12 +3868,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3469,12 +3897,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3494,12 +3926,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3519,12 +3955,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        border-r
+        lg:border-r 
         
         
         "
@@ -3544,12 +3984,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3569,12 +4013,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3594,12 +4042,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3619,12 +4071,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3644,12 +4100,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3669,12 +4129,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3694,12 +4158,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
+        
+        
+        
+        lg:border-r 
         
         
         "
@@ -3719,12 +4187,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3744,12 +4216,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3769,12 +4245,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3794,12 +4274,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3819,12 +4303,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        border-r lg:border-r-0
+        
          
-        
-        
-        
         
         
         "
@@ -3844,12 +4332,16 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
         
         
         "
@@ -3869,13 +4361,17 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
-        border-r 
         
         
         
-        rounded-br-lg
+        lg:rounded-br-lg
+        
+        border-r
+        lg:border-r 
+        
         
         "
         >
@@ -3894,14 +4390,18 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        
+        
+        
+        
+        
+        
          
-        
-        
-        
-        
-        rounded-bl-lg
+        border-b
+        lg:rounded-bl-lg
         "
         >
           <div
@@ -3919,15 +4419,19 @@ exports[`month rendering with no events 1`] = `
           />
         </div>
         <div
-          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+          class="block border-l border-b border-gray-600 text-center w-44 lg:w-48 h-48 lg:h-44 
+        
          
+        lg:border-r border-r border-b
+        
+        
+        
+        
+        
          
-        border-r
         
         
-        
-        
-        rounded-br-lg"
+        lg:rounded-br-lg border-b border-r"
         >
           <div
             class="text-xs"
@@ -4006,10 +4510,10 @@ exports[`new birthday render 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
+        class="w-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
       >
         <div
-          class="w-1/6 h-1/4 border p-2 bg-white rounded-xl"
+          class="w-2/3 h-2/5 lg:w-1/6 lg:h-1/4 border p-2 bg-white rounded-xl"
         >
           <div>
             <label
@@ -4061,10 +4565,10 @@ exports[`new birthday render 1`] = `
   </body>,
   "container": <div>
     <div
-      class="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
+      class="w-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
     >
       <div
-        class="w-1/6 h-1/4 border p-2 bg-white rounded-xl"
+        class="w-2/3 h-2/5 lg:w-1/6 lg:h-1/4 border p-2 bg-white rounded-xl"
       >
         <div>
           <label

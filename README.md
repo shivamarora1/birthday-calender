@@ -17,7 +17,7 @@ npm run dev
 
 
 ### TODO Tasks:
-1. Polish read me file.
+1. Improve read me file.
 2. Responsive design.
 3. Add Docker image.
 4. Cron for the reminder.

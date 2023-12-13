@@ -21,8 +21,8 @@ export default function NewBirthday({
   const month = dateObject.month;
   const monthName = getMonthName(month);
   return (
-    <div className="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center">
-      <div className="w-1/6 h-1/4 border p-2 bg-white rounded-xl">
+    <div className="w-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center">
+      <div className="w-2/3 h-2/5 lg:w-1/6 lg:h-1/4 border p-2 bg-white rounded-xl">
         <div>
           <label className="block mx-1 text-lg font-medium text-black">
             Title

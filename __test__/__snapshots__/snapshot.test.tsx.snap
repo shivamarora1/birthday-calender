@@ -127,6 +127,201 @@ exports[`auth renders correctly 1`] = `
 }
 `;
 
+exports[`day renders all events correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+      >
+        <div
+          class="text-xs"
+        >
+          Saturday
+        </div>
+        <div
+          class="text-sm font-medium"
+        >
+          1
+        </div>
+        <div
+          class="text-sm mt-1 mb-1 ml-2"
+        >
+          <div
+            class="mb-0.5 rounded-l bg-gray-400 text-white"
+          >
+            Event-1
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-300 text-black"
+          >
+            Event-2
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-200 text-black"
+          >
+            Event-3
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-100 text-black"
+          >
+            Event-4
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-100 text-black"
+          >
+            Event-5
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-100 text-black"
+          >
+            Event-6
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-100 text-black"
+          >
+            Event-7
+          </div>
+          <div
+            class="mb-0.5 rounded-l bg-gray-100 text-black"
+          >
+            Event-8
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+    >
+      <div
+        class="text-xs"
+      >
+        Saturday
+      </div>
+      <div
+        class="text-sm font-medium"
+      >
+        1
+      </div>
+      <div
+        class="text-sm mt-1 mb-1 ml-2"
+      >
+        <div
+          class="mb-0.5 rounded-l bg-gray-400 text-white"
+        >
+          Event-1
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-300 text-black"
+        >
+          Event-2
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-200 text-black"
+        >
+          Event-3
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-100 text-black"
+        >
+          Event-4
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-100 text-black"
+        >
+          Event-5
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-100 text-black"
+        >
+          Event-6
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-100 text-black"
+        >
+          Event-7
+        </div>
+        <div
+          class="mb-0.5 rounded-l bg-gray-100 text-black"
+        >
+          Event-8
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`day renders correctly 1`] = `
 {
   "asFragment": [Function],
@@ -262,6 +457,119 @@ exports[`day renders correctly 1`] = `
 }
 `;
 
+exports[`day renders without event correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+      >
+        <div
+          class="text-xs"
+        >
+          Wednesday
+        </div>
+        <div
+          class="text-sm font-medium"
+        >
+          1
+        </div>
+        <div
+          class="text-sm mt-1 mb-1 ml-2"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+    >
+      <div
+        class="text-xs"
+      >
+        Wednesday
+      </div>
+      <div
+        class="text-sm font-medium"
+      >
+        1
+      </div>
+      <div
+        class="text-sm mt-1 mb-1 ml-2"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`hide loader renders correctly 1`] = `
 {
   "asFragment": [Function],
@@ -269,6 +577,3542 @@ exports[`hide loader renders correctly 1`] = `
     <div />
   </body>,
   "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`month heading page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex mb-3"
+      >
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &lt;
+        </div>
+        <div
+          class="font-medium text-lg mx-3"
+        >
+          January
+        </div>
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &gt;
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex mb-3"
+    >
+      <div
+        class="font-medium text-lg hover:cursor-pointer"
+      >
+        &lt;
+      </div>
+      <div
+        class="font-medium text-lg mx-3"
+      >
+        January
+      </div>
+      <div
+        class="font-medium text-lg hover:cursor-pointer"
+      >
+        &gt;
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`month rendering with events data 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center justify-center my-4"
+      >
+        <div
+          class="flex mb-3"
+        >
+          <div
+            class="font-medium text-lg hover:cursor-pointer"
+          >
+            &lt;
+          </div>
+          <div
+            class="font-medium text-lg mx-3"
+          >
+            April 2023
+          </div>
+          <div
+            class="font-medium text-lg hover:cursor-pointer"
+          >
+            &gt;
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-7 w-fit"
+        >
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              1
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              2
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              3
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            >
+              <div
+                class="mb-0.5 rounded-l bg-gray-400 text-white"
+              >
+                event-1
+              </div>
+              <div
+                class="mb-0.5 rounded-l bg-gray-300 text-black"
+              >
+                event-2
+              </div>
+            </div>
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              4
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              5
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            >
+              <div
+                class="mb-0.5 rounded-l bg-gray-400 text-white"
+              >
+                event-3
+              </div>
+            </div>
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              6
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+        border-r 
+        
+        
+        rounded-tr-lg
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              7
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              8
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              9
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              10
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              11
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              12
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              13
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              14
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              15
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              16
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              17
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              18
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              19
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              20
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              21
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              22
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              23
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              24
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              25
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              26
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              27
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        rounded-br-lg
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              28
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        rounded-bl-lg
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              29
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        border-r
+        
+        
+        
+        
+        rounded-br-lg"
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              30
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center justify-center my-4"
+    >
+      <div
+        class="flex mb-3"
+      >
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &lt;
+        </div>
+        <div
+          class="font-medium text-lg mx-3"
+        >
+          April 2023
+        </div>
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &gt;
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-7 w-fit"
+      >
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            1
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            2
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            3
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          >
+            <div
+              class="mb-0.5 rounded-l bg-gray-400 text-white"
+            >
+              event-1
+            </div>
+            <div
+              class="mb-0.5 rounded-l bg-gray-300 text-black"
+            >
+              event-2
+            </div>
+          </div>
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            4
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            5
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          >
+            <div
+              class="mb-0.5 rounded-l bg-gray-400 text-white"
+            >
+              event-3
+            </div>
+          </div>
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            6
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+        border-r 
+        
+        
+        rounded-tr-lg
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            7
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            8
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            9
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            10
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            11
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            12
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            13
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            14
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            15
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            16
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            17
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            18
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            19
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            20
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            21
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            22
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            23
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            24
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            25
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            26
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            27
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        rounded-br-lg
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            28
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        rounded-bl-lg
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            29
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        border-r
+        
+        
+        
+        
+        rounded-br-lg"
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            30
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`month rendering with no events 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center justify-center my-4"
+      >
+        <div
+          class="flex mb-3"
+        >
+          <div
+            class="font-medium text-lg hover:cursor-pointer"
+          >
+            &lt;
+          </div>
+          <div
+            class="font-medium text-lg mx-3"
+          >
+            April 2021
+          </div>
+          <div
+            class="font-medium text-lg hover:cursor-pointer"
+          >
+            &gt;
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-7 w-fit"
+        >
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              1
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              2
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              3
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              4
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              5
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              6
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+        border-r 
+        
+        
+        rounded-tr-lg
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              7
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              8
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              9
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              10
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              11
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              12
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              13
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              14
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              15
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              16
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              17
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              18
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              19
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              20
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              21
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              22
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              23
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Saturday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              24
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Sunday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              25
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Monday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              26
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Tuesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              27
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        rounded-br-lg
+        
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Wednesday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              28
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        rounded-bl-lg
+        "
+          >
+            <div
+              class="text-xs"
+            >
+              Thursday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              29
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+          <div
+            class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        border-r
+        
+        
+        
+        
+        rounded-br-lg"
+          >
+            <div
+              class="text-xs"
+            >
+              Friday
+            </div>
+            <div
+              class="text-sm font-medium"
+            >
+              30
+            </div>
+            <div
+              class="text-sm mt-1 mb-1 ml-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center justify-center my-4"
+    >
+      <div
+        class="flex mb-3"
+      >
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &lt;
+        </div>
+        <div
+          class="font-medium text-lg mx-3"
+        >
+          April 2021
+        </div>
+        <div
+          class="font-medium text-lg hover:cursor-pointer"
+        >
+          &gt;
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-7 w-fit"
+      >
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        rounded-tl-lg
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            1
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            2
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            3
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            4
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            5
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            6
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+        border-t 
+        border-r 
+        
+        
+        rounded-tr-lg
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            7
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            8
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            9
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            10
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            11
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            12
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            13
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            14
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            15
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            16
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            17
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            18
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            19
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            20
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            21
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            22
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            23
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Saturday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            24
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Sunday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            25
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Monday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            26
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Tuesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            27
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+        border-r 
+        
+        
+        
+        rounded-br-lg
+        
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Wednesday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            28
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        
+        
+        
+        
+        rounded-bl-lg
+        "
+        >
+          <div
+            class="text-xs"
+          >
+            Thursday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            29
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+        <div
+          class="block border-l border-b border-gray-600 w-48 h-44 text-center 
+         
+         
+        border-r
+        
+        
+        
+        
+        rounded-br-lg"
+        >
+          <div
+            class="text-xs"
+          >
+            Friday
+          </div>
+          <div
+            class="text-sm font-medium"
+          >
+            30
+          </div>
+          <div
+            class="text-sm mt-1 mb-1 ml-2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`new birthday render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
+      >
+        <div
+          class="w-1/6 h-1/4 border p-2 bg-white rounded-xl"
+        >
+          <div>
+            <label
+              class="block mx-1 text-lg font-medium text-black"
+            >
+              Title
+            </label>
+            <input
+              class="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              id="title"
+              placeholder="Name of event."
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              class="block mx-2 text-lg font-medium text-black mt-2"
+            >
+              Date
+            </label>
+            <input
+              class="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              disabled=""
+              id="event-date"
+              required=""
+              type="text"
+              value="3 April"
+            />
+          </div>
+          <div
+            class="mt-5 flex text-center justify-center items-center"
+          >
+            <button
+              class="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+            >
+              Save
+            </button>
+            <button
+              class="bg-blue-500 w-22 center ml-2 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-full absolute top-0  bg-black bg-opacity-50 flex justify-center h-screen items-center"
+    >
+      <div
+        class="w-1/6 h-1/4 border p-2 bg-white rounded-xl"
+      >
+        <div>
+          <label
+            class="block mx-1 text-lg font-medium text-black"
+          >
+            Title
+          </label>
+          <input
+            class="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            id="title"
+            placeholder="Name of event."
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div>
+          <label
+            class="block mx-2 text-lg font-medium text-black mt-2"
+          >
+            Date
+          </label>
+          <input
+            class="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            disabled=""
+            id="event-date"
+            required=""
+            type="text"
+            value="3 April"
+          />
+        </div>
+        <div
+          class="mt-5 flex text-center justify-center items-center"
+        >
+          <button
+            class="bg-blue-500 center w-20 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+          >
+            Save
+          </button>
+          <button
+            class="bg-blue-500 w-22 center ml-2 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],

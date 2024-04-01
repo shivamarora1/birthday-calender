@@ -1,4 +1,5 @@
 import { dayEventsType, eventsDataType } from "@/app/lib/definitions";
+import axios from "axios";
 export function getMonthName(month: number): String {
   // 0 indexed month.
   const allMonths = [
@@ -77,4 +78,36 @@ export function addDayEvent(
     newAllEvents[month] = { [day]: [event] };
   }
   return newAllEvents;
+}
+
+// * mail gun client to send email.
+export function sendEmail(to: string, subject: string, htmlContent: string) {
+  const apiKey = process.env.MAILGUN_API_KEY || "";
+  const domain = process.env.MAILGUN_DOMAIN;
+  const from = process.env.MAILGUN_FROM || "";
+
+  axios
+    .post(
+      `https://api.mailgun.net/v3/${domain}/messages`,
+      `from=${encodeURIComponent(from)}&to=${encodeURIComponent(
+        to
+      )}&subject=${encodeURIComponent(subject)}&html=${encodeURIComponent(
+        htmlContent
+      )}`,
+      {
+        auth: {
+          username: "api",
+          password: apiKey,
+        },
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      }
+    )
+    .then((response) => {
+      console.log("Email sent successfully:", response.data);
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error.response.data);
+    });
 }

@@ -20,6 +20,24 @@ export async function fetchAllEvents() {
     throw new Error("Failed to fetch events data.");
   }
 }
+
+
+export async function fetchEvents(date: Date) {
+  try {
+    const query = `SELECT * FROM events WHERE month = $1 and day = $2`;
+    const data = await conn.query(query,[date.getMonth(),date.getDate()]);
+    const birthdayEvents = data.rows.reduce((acc:string[], event) => {
+      const { title } = event;
+      acc.push(title);
+      return acc;
+    }, []);
+    return birthdayEvents;
+  } catch (error) {
+    console.error("Database Error:", error);
+    throw new Error("Failed to fetch events data for today.");
+  }
+}
+
 export async function saveEvent(ev: event) {
   try {
     if (!ev.month || !ev.day || !ev.title)

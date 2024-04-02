@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
       "<center><h1>Don't forget to wish following person today 😊</h1>" +
         events
           .map((str) => {
-            return "<h1>" + str + "</h1>";
+            return "<h3>" + str + "</h3>";
           })
           .join("") +
         "</center>"

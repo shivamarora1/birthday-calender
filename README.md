@@ -15,8 +15,9 @@ npm run install
 npm run dev
 ```
 
-
 ### TODO Tasks:
 1. Improve read me file.
-2. Add Docker image.
-3. Cron for the reminder.
+2. Overall architecture.
+    - Creation of birthday event.
+    - Display of birthday in frontend.
+    - Cron that will send birthday reminders.

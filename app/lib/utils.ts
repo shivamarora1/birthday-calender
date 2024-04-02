@@ -86,6 +86,10 @@ export function sendEmail(to: string, subject: string, htmlContent: string) {
   const domain = process.env.MAILGUN_DOMAIN;
   const from = process.env.MAILGUN_FROM || "";
 
+  console.log(apiKey)
+  console.log(domain)
+  console.log(from)
+  console.log(to)
   axios
     .post(
       `https://api.mailgun.net/v3/${domain}/messages`,

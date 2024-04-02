@@ -18,9 +18,8 @@ jobs:
       - name: Make API Call
         env: 
             REMINDER_API_KEY: ${{ secrets.REMINDER_API_KEY }}
-            REMINDER_SERVICE: "www.google.com"
+            REMINDER_SERVICE: "https://birthday-calender.vercel.app"
         run: |
-          echo "$REMINDER_SERVICE"
           curl "$REMINDER_SERVICE/api/events/reminder?date=${{steps.current_date.outputs.date}}" \
             -H "Api-Key: $REMINDER_API_KEY" \
             --compressed

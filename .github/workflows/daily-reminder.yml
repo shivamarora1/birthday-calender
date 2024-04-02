@@ -18,7 +18,7 @@ jobs:
       - name: Make API Call
         env: 
             REMINDER_API_KEY: ${{ secrets.REMINDER_API_KEY }}
-            REMINDER_SERVICE: ${{ vars.REMINDER_SERVICE }}
+            REMINDER_SERVICE: "www.google.com"
         run: |
           echo "$REMINDER_SERVICE"
           curl "$REMINDER_SERVICE/api/events/reminder?date=${{steps.current_date.outputs.date}}" \

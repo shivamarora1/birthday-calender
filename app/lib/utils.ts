@@ -81,16 +81,12 @@ export function addDayEvent(
 }
 
 // * mail gun client to send email.
-export function sendEmail(to: string, subject: string, htmlContent: string) {
+export async function sendEmail(to: string, subject: string, htmlContent: string) {
   const apiKey = process.env.MAILGUN_API_KEY || "";
   const domain = process.env.MAILGUN_DOMAIN;
   const from = process.env.MAILGUN_FROM || "";
 
-  console.log(apiKey)
-  console.log(domain)
-  console.log(from)
-  console.log(to)
-  axios
+  await axios
     .post(
       `https://api.mailgun.net/v3/${domain}/messages`,
       `from=${encodeURIComponent(from)}&to=${encodeURIComponent(

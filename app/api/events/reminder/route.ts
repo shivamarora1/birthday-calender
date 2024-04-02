@@ -8,16 +8,19 @@ export async function GET(req: NextRequest) {
   const dateStr = searchParams.get("date") || new Date();
 
   let events = await fetchEvents(new Date(dateStr));
-  sendEmail(
-    process.env.REMINDER_RECEIVER || "",
-    "🎂 Birthday reminder email",
-    "<center><h1>Don't forget to wish following person today 😊</h1>" +
-      events
-        .map((str) => {
-          return "<h1>" + str + "</h1>";
-        })
-        .join("") +
-      "</center>"
-  );
+  if (events.length > 0) {
+    sendEmail(
+      process.env.REMINDER_RECEIVER || "",
+      "🎂 Birthday reminder email",
+      "<center><h1>Don't forget to wish following person today 😊</h1>" +
+        events
+          .map((str) => {
+            return "<h1>" + str + "</h1>";
+          })
+          .join("") +
+        "</center>"
+    );
+  }
+
   return Response.json(events);
 }

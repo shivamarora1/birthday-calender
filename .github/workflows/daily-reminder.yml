@@ -3,9 +3,6 @@ name: Daily API Call
 on:
   schedule:
     - cron: '0 7 * * *'
-  push:
-    branches:
-        - main
 
 jobs:
   call-api:

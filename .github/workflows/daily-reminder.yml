@@ -20,6 +20,6 @@ jobs:
             REMINDER_API_KEY: ${{ secrets.REMINDER_API_KEY }}
             REMINDER_SERVICE: ${{ vars.REMINDER_SERVICE }}
         run: |
-          curl '$REMINDER_SERVICE/api/events/reminder?date=${{steps.current_date.outputs.date}}' \
-            -H 'Api-Key: $REMINDER_API_KEY' \
+          curl "$REMINDER_SERVICE/api/events/reminder?date=${{steps.current_date.outputs.date}}" \
+            -H "Api-Key: $REMINDER_API_KEY" \
             --compressed

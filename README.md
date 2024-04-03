@@ -14,10 +14,3 @@ Now, Never Ever miss to wish Happy Birthday to your folks. Use this simple appli
 npm run install
 npm run dev
 ```
-
-### TODO Tasks:
-1. Improve read me file.
-2. Overall architecture.
-    - Creation of birthday event.
-    - Display of birthday in frontend.
-    - Cron that will send birthday reminders.

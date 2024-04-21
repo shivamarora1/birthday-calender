@@ -1,6 +1,7 @@
 name: Daily API Call
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 7 * * *'
 
@@ -11,12 +12,10 @@ jobs:
       - name: Get current date
         id: current_date
         run: echo "::set-output name=date::$(date +%Y-%m-%d)"
-      
-      - name: Make API Call
+      - uses: actions/checkout@v2   
+      - name: Run Script
         env: 
             REMINDER_API_KEY: ${{ secrets.REMINDER_API_KEY }}
             REMINDER_SERVICE: "https://birthday-calender.vercel.app"
         run: |
-          curl "$REMINDER_SERVICE/api/events/reminder?date=${{steps.current_date.outputs.date}}" \
-            -H "Api-Key: $REMINDER_API_KEY" \
-            --compressed
+          . ./reminder.sh "${{steps.current_date.outputs.date}}" "$REMINDER_SERVICE" "$REMINDER_API_KEY"
